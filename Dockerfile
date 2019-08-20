@@ -1,4 +1,4 @@
-FROM wordpress:5.2.1-php7.3-fpm-alpine
+FROM wordpress:5.2.2-php7.3-fpm-alpine
 
 RUN echo "upload_max_filesize = 50M" >> /usr/local/etc/php/conf.d/uploads.ini
 RUN echo "post_max_size = 50M" >> /usr/local/etc/php/conf.d/uploads.ini
