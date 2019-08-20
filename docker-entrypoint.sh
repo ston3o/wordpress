@@ -269,4 +269,6 @@ EOPHP
 	done
 fi
 
+chown -R "$user:$group" /var/lib/nginx /var/tmp/nginx
+
 exec "$@"
